@@ -12,10 +12,10 @@ namespace MethodAssinment
             result = num1 + 10;
             return result;
         }
-        public double decMeth(int num1)
+        public decimal decMeth(decimal num1)
         {
-            double result;
-            result = num1 + 4.33365453;
+            decimal result;
+            result = num1 + 4.3m;
             return result;
         }
         public int writtenMeth(string num2)
